@@ -39,7 +39,7 @@ export default function Home() {
             {/* Left - Content */}
             <div className="px-6 lg:px-12 py-16 lg:py-24 flex flex-col justify-center">
               <div className="inline-block px-4 py-1.5 bg-primary-50 text-primary-700 rounded-full text-sm font-semibold mb-6 w-fit">
-                Family Owned Since 2020
+                Family Owned Since 2019
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-[1.1]" style={{fontFamily: 'var(--font-display)'}}>
@@ -79,13 +79,9 @@ export default function Home() {
       </section>
 
       {/* Stats bar */}
-      <section className="bg-gray-900 text-white py-12">
+      <section className="bg-dark-800 text-white py-12">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            <div>
-              <div className="text-4xl font-bold mb-1" style={{fontFamily: 'var(--font-display)'}}>3</div>
-              <div className="text-gray-400 text-sm uppercase tracking-wider">Properties Owned</div>
-            </div>
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl font-bold mb-1" style={{fontFamily: 'var(--font-display)'}}>5+</div>
               <div className="text-gray-400 text-sm uppercase tracking-wider">Years Experience</div>
@@ -314,7 +310,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-24 bg-gray-900 text-white">
+      <section id="contact" className="py-24 bg-dark-700 text-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-4xl lg:text-6xl font-bold mb-6" style={{fontFamily: 'var(--font-display)'}}>
@@ -387,7 +383,7 @@ export default function Home() {
       </section>
 
       {/* Footer - Minimal */}
-      <footer className="bg-black text-white py-16">
+      <footer className="bg-dark-900 text-white py-16">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
