@@ -144,7 +144,7 @@ export default function Home() {
               <li className="text-xs">
                 <a
                   className="block hover:text-theme-primary"
-                  href="https://github.com/yourusername"
+                  href="https://github.com/richarddaskas"
                   target="_blank"
                   rel="noreferrer"
                 >
